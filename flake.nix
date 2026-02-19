@@ -36,6 +36,7 @@
             ghcid
             hlint
             ormolu
+            cabal2nix
           ];
 
           inputsFrom = [ myHaskellPackage.env ];
